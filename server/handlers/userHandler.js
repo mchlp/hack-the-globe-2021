@@ -1,38 +1,34 @@
 const fs = require('fs');
-
-const USER_DB_FILE_NAME = './handlers/userDb.json';
-
-const sampleUser = {
-    username: 'name',
-    name: 'Test Name',
-    company: 'Test Company',
-    interests: [],
-    history: [],
-    affiliations: [],
-};
+const constants = require('./constants');
 
 class UserHandler {
     constructor() {
-        this.userDb = JSON.parse(fs.readFileSync(USER_DB_FILE_NAME));
-        console.log(this.userDb);
+        this.userDb = JSON.parse(fs.readFileSync(constants.USER_DB_FILE_NAME));
         setInterval(() => {
             this.saveToFile();
         }, 5000);
     }
 
+    getUser(username) {
+        return {
+            ...this.userDb[username],
+            username,
+        };
+    }
+
     addUser(username, company) {
         if (!this.userDb[username]) {
             this.userDb[username] = {
-                username,
                 name: null,
                 company,
                 interests: [],
                 history: [],
                 affiliations: [],
             };
+            this.addEventToUserHistory(username, constants.HISTORY_EVENT_TYPES.REGISTER);
             return {
                 success: true,
-                data: this.userDb[username],
+                data: this.getUser(username),
             };
         } else {
             return {
@@ -50,7 +46,7 @@ class UserHandler {
             };
             return {
                 success: true,
-                data: this.userDb[username],
+                data: this.getUser(username),
             };
         } else {
             return {
@@ -61,8 +57,27 @@ class UserHandler {
     }
 
     saveToFile() {
-        console.log("Saving user data file")
-        fs.writeFileSync(USER_DB_FILE_NAME, JSON.stringify(this.userDb, null, 4));
+        console.log('Saving user data file');
+        fs.writeFileSync(constants.USER_DB_FILE_NAME, JSON.stringify(this.userDb, null, 4));
+    }
+
+    addEventToUserHistory(username, type, data) {
+        if (this.userDb[username]) {
+            this.userDb[username].history.push({
+                type,
+                ...data,
+                timestamp: new Date().toString(),
+            });
+            return true;
+        }
+        return false;
+    }
+
+    donateToCharity(username, charityId, amount) {
+        return this.addEventToUserHistory(username, constants.HISTORY_EVENT_TYPES.DONATE_TO_CHARITY, {
+            charityId,
+            amount,
+        });
     }
 }
 
