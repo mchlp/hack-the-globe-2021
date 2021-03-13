@@ -208,6 +208,7 @@
         "type": null,
         "firstName": "",
         "lastName": "",
-        "password": "test123"
+        "password": "test123",
+        "companyCode": "1231231231233212"
     }
 }
