@@ -60,9 +60,11 @@ class CharityHandler {
                     // higher score if user is interested in this category
                     if (userData.interests.includes(category)) {
                         curCharityScore += 22
-                    }
+                    }                    
                 }
             }
+
+            curCharityScore += curCharity.score
 
             // add some randomness
             curCharityScore += Math.random() * 50;
