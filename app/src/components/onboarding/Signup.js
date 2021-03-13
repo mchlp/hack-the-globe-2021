@@ -72,7 +72,7 @@ export default function SignUp() {
         type,
       },
     });
-    history.push("/dashboard");
+    history.push("/companycode");
     return false;
   };
 

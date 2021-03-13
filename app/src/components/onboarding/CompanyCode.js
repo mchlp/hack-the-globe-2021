@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import TextField from "@material-ui/core/TextField";
@@ -7,6 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles, ThemeProvider } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import defaultTheme from "../Themes";
+import { useHistory } from "react-router";
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -41,8 +42,19 @@ const useStyles = makeStyles((theme) => ({
 
 export default function CompanyCode() {
   const classes = useStyles();
-  const handleChange = () => {
-    console.log("hello");
+  const [type, setType] = useState(null);
+
+  const handleChange = (e) => {
+    setType(e.target.value);
+  };
+
+  const history = useHistory();
+
+  const submitForm = async (e) => {
+    e.preventDefault();
+    // Include backend logic for adding user's company to user object
+    history.push("/dashboard");
+    return false;
   };
 
   return (
@@ -56,7 +68,7 @@ export default function CompanyCode() {
           <Typography className={classes.subheader} component="h1">
             If you don't know your company code, please ask your employer.
           </Typography>
-          <form className={classes.form} noValidate>
+          <form className={classes.form} onSubmit={submitForm}>
             <Grid item xs={12}>
               <div className={classes.input}>
                 <TextField
