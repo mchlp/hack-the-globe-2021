@@ -11,6 +11,9 @@ const defaultTheme = createMuiTheme({
     neutrals: {
       main: "#FCFCFC",
     },
+    text: {
+      main: "#252721",
+    },
   },
 });
 
