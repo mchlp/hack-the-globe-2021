@@ -21,7 +21,9 @@
     "dudedfr": {
         "name": null,
         "company": "hello",
-        "interests": [],
+        "interests": [
+            "lgbtqplus"
+        ],
         "history": [
             {
                 "type": "register",

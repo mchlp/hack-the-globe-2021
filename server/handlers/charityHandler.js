@@ -54,13 +54,18 @@ class CharityHandler {
 
                     // higher score if they've donated to this category before
                     if (pastCharityCategories[category]) {
-                        curCharityScore += Math.log(pastCharityCategories[category]);
+                        curCharityScore += 4 * Math.log(Math.max(pastCharityCategories[category], 100));
+                    }
+
+                    // higher score if user is interested in this category
+                    if (userData.interests.includes(category)) {
+                        curCharityScore += 22
                     }
                 }
             }
 
             // add some randomness
-            curCharityScore += Math.random() * 60;
+            curCharityScore += Math.random() * 50;
 
             charityScores.push({ charityId, score: curCharityScore });
         }

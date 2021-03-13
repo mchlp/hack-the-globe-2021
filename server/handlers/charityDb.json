@@ -23,6 +23,123 @@
             "youth"
         ]
     },
+    "the_519": {
+        "name": "The 519",
+        "score": 100,
+        "amount_donated": 0,
+        "categories": [
+            "lgbtqplus",
+            "local"
+        ]
+    },
+    "egale_canada_human_rights_trust": {
+        "name": "Egale Canada Human Rights Trust",
+        "score": 100,
+        "amount_donated": 0,
+        "categories": [
+            "lgbtqplus"
+        ]
+    },
+    "pflag_canada": {
+        "name": "PLAG Canada",
+        "score": 100,
+        "amount_donated": 0,
+        "categories": [
+            "lgbtqplus"
+        ]
+    },
+    "the_canadian_centre_for_gender_sexual_diversity": {
+        "name": "The Canadian Centre for Gender & Sexual Diversity",
+        "score": 100,
+        "amount_donated": 0,
+        "categories": [
+            "lgbtqplus"
+        ]
+    },
+    "toronto_asian_community_aids_services": {
+        "name": "Toronto Asian Community AIDS Services",
+        "score": 100,
+        "amount_donated": 0,
+        "categories": [
+            "lgbtqplus",
+            "local"
+        ]
+    },
+    "the_amy_project": {
+        "name": "Artists Mentoring Youth (The AMY Project)",
+        "score": 100,
+        "amount_donated": 0,
+        "categories": [
+            "lgbtqplus",
+            "local",
+            "gender_equality"
+        ]
+    },
+    "black_youth_helpline": {
+        "name": "Black Youth Helpline",
+        "score": 100,
+        "amountDonated": 0,
+        "categories": [
+            "systemic_racism",
+            "youth"
+        ]
+    },
+    "black_women_in_motion": {
+        "name": "Black Women in Motion",
+        "score": 100,
+        "amountDonated": 0,
+        "categories": [
+            "systemic_racism",
+            "local",
+            "gender_equality"
+        ]
+    },
+    "black_legal_action_centre": {
+        "name": "Black Legal Action Centre (BLAC)",
+        "score": 100,
+        "amountDonated": 0,
+        "categories": [
+            "systemic_racism",
+            "local"
+        ]
+    },
+    "the_period_purse": {
+        "name": "The Period Purse",
+        "score": 100,
+        "amountDonated": 0,
+        "categories": [
+            "gender_equality",
+            "local"
+        ]
+    },
+    "barbra_schlifer_commemorative_clinc": {
+        "name": "Barbra Schlifer Commemorative Clinc",
+        "score": 100,
+        "amountDonated": 0,
+        "categories": [
+            "gender_equality",
+            "local"
+        ]
+    },
+    "canadian_civil_liberties_association": {
+        "name": "Canadian Civil Liberties Association",
+        "score": 100,
+        "amountDonated": 0,
+        "categories": [
+            "gender_equality",
+            "systemic_racism",
+            "local"
+        ]
+    },
+    "metrac": {
+        "name": "METRAC Action on Violence",
+        "score": 100,
+        "amountDonated": 0,
+        "categories": [
+            "gender_equality",
+            "local"
+        ]
+    },
     "all_hands_volunteers": {
         "name": "All Hands Volunteers",
         "score": 100,
@@ -52,7 +169,9 @@
         "score": 97.5,
         "amountDonated": 0,
         "categories": [
-            "youth"
+            "youth",
+            "education",
+            "local"
         ]
     },
     "bruce_trail_conservancy": {
@@ -231,6 +350,24 @@
             "international_aid"
         ]
     },
+    "eva_initiatives": {
+        "name": "Eva's Initiatives",
+        "score": 100,
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness",
+            "local"
+        ]
+    },
+    "street_health": {
+        "name": "Street Health",
+        "score": 100,
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness",
+            "local"
+        ]
+    },
     "farm_radio_international": {
         "name": "Farm Radio International",
         "score": 95,
@@ -284,7 +421,9 @@
         "score": 95,
         "amountDonated": 0,
         "categories": [
-            "youth"
+            "youth",
+            "education",
+            "local"
         ]
     },
     "mennonite_central_committee_ontario": {

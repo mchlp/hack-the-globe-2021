@@ -18,7 +18,11 @@ constants.CHARITY_CATEGORIES = {
     SOCIAL_SERVICES: 'social_services',
     FUNDRAISING: 'fundraising_organization',
     EDUCATION: 'education',
+    GENDER_EQUALITY: "gender_equality",
     HEALTH: 'health',
+    LOCAL: 'local',
+    LGBTQPLUS: "lgbtqplus",
+    SYSTEMIC_RACISM: "systemic_racism"
 };
 
 constants.AVALIABLE_CATEGORIES = [
@@ -26,7 +30,10 @@ constants.AVALIABLE_CATEGORIES = [
     constants.CHARITY_CATEGORIES.INTERNATIONAL_AID,
     constants.CHARITY_CATEGORIES.EDUCATION,
     constants.CHARITY_CATEGORIES.SOCIAL_SERVICES,
-]
+    constants.CHARITY_CATEGORIES.GENDER_EQUALITY,
+    constants.CHARITY_CATEGORIES.LGBTQPLUS,
+    constants.CHARITY_CATEGORIES.SYSTEMIC_RACISM
+];
 
 constants.cur_mappings = {
     'Housing and homelessness': constants.CHARITY_CATEGORIES.HOUSING_AND_HOMELESSNESS,
