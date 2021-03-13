@@ -1,0 +1,10 @@
+{
+    "bob": {
+        "username": "bob",
+        "name": null,
+        "company": "hello",
+        "interests": [],
+        "history": [],
+        "affiliations": []
+    }
+}
