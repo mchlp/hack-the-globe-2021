@@ -1,0 +1,492 @@
+[
+    {
+        "name": "Calgary Food Bank",
+        "score": 100,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Boundless School",
+        "score": 97.5,
+        "category": "youth"
+    },
+    {
+        "name": "Bruce Trail Conservancy",
+        "score": 97.5,
+        "category": "environment"
+    },
+    {
+        "name": "CanadaHelps",
+        "score": 97.5,
+        "category": "other"
+    },
+    {
+        "name": "Chalice Canada",
+        "score": 97.5,
+        "category": "international_aid"
+    },
+    {
+        "name": "Food Banks Canada",
+        "score": 97.5,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Indspire",
+        "score": 97.5,
+        "category": "social_services"
+    },
+    {
+        "name": "The Mississauga Food Bank",
+        "score": 97.5,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "United Way of Calgary and Area",
+        "score": 97.5,
+        "category": "fundraising_organization"
+    },
+    {
+        "name": "United Way of the Alberta Capital Region",
+        "score": 97.5,
+        "category": "fundraising_organization"
+    },
+    {
+        "name": "United Way Ottawa (now called United Way East Ontario)",
+        "score": 97.5,
+        "category": "fundraising_organization"
+    },
+    {
+        "name": "Victoria Hospice Society",
+        "score": 97.5,
+        "category": "health"
+    },
+    {
+        "name": "Wesley Urban Ministries",
+        "score": 97.5,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Youth Without Shelter",
+        "score": 97.5,
+        "category": "youth"
+    },
+    {
+        "name": "Feed Nova Scotia",
+        "score": 97,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "George Hull Centre for Children and Families",
+        "score": 97,
+        "category": "social_services"
+    },
+    {
+        "name": "Calgary Homeless Foundation",
+        "score": 95,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Canadian Foodgrains Bank",
+        "score": 95,
+        "category": "international_aid"
+    },
+    {
+        "name": "Canadian Red Cross",
+        "score": 95,
+        "category": "social_services"
+    },
+    {
+        "name": "Centraide of Greater Montreal (United Way Montreal)",
+        "score": 95,
+        "category": "fundraising_organization"
+    },
+    {
+        "name": "Children's Cottage Society",
+        "score": 95,
+        "category": "youth"
+    },
+    {
+        "name": "Covenant House Vancouver",
+        "score": 95,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Discovery House",
+        "score": 95,
+        "category": "social_services"
+    },
+    {
+        "name": "Emergency Relief and Development Overseas",
+        "score": 95,
+        "category": "international_aid"
+    },
+    {
+        "name": "Farm Radio International",
+        "score": 95,
+        "category": "international_aid"
+    },
+    {
+        "name": "Fresh Start Recovery Centre",
+        "score": 95,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Hope Air",
+        "score": 95,
+        "category": "social_services"
+    },
+    {
+        "name": "MADA Community Center",
+        "score": 95,
+        "category": "social_services"
+    },
+    {
+        "name": "Opportunity International Canada",
+        "score": 95,
+        "category": "international_aid"
+    },
+    {
+        "name": "The Redwood",
+        "score": 95,
+        "category": "social_services"
+    },
+    {
+        "name": "Toronto Foundation for Student Success",
+        "score": 95,
+        "category": "youth"
+    },
+    {
+        "name": "Mennonite Central Committee Ontario",
+        "score": 95,
+        "category": "social_services"
+    },
+    {
+        "name": "Toronto Humane Society",
+        "score": 95,
+        "category": "other"
+    },
+    {
+        "name": "Trails Youth Initiatives",
+        "score": 95,
+        "category": "youth"
+    },
+    {
+        "name": "United Way of Fort McMurray and Wood Buffalo",
+        "score": 95,
+        "category": "fundraising_organization"
+    },
+    {
+        "name": "United Way of Greater Moncton and Southeastern New Brunswick Region",
+        "score": 95,
+        "category": "fundraising_organization"
+    },
+    {
+        "name": "Youth Employment Services",
+        "score": 95,
+        "category": "youth"
+    },
+    {
+        "name": "BC SPCA",
+        "score": 94.5,
+        "category": "other"
+    },
+    {
+        "name": "Greater Vancouver Food Bank",
+        "score": 94.5,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Habitat for Humanity Manitoba",
+        "score": 94.5,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Lookout Housing and Health Society",
+        "score": 94.5,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Second Harvest",
+        "score": 94.5,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "World Federation of Hemophilia",
+        "score": 94.5,
+        "category": "health"
+    },
+    {
+        "name": "Habitat for Humanity Edmonton",
+        "score": 94,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Hospice of Greater Saint John",
+        "score": 94,
+        "category": "health"
+    },
+    {
+        "name": "360°kids",
+        "score": 92.5,
+        "category": "youth"
+    },
+    {
+        "name": "Big Brothers Big Sisters of Canada",
+        "score": 92.5,
+        "category": "youth"
+    },
+    {
+        "name": "Brain Canada",
+        "score": 92.5,
+        "category": "health"
+    },
+    {
+        "name": "Calgary Women's Emergency Shelter",
+        "score": 92.5,
+        "category": "social_services"
+    },
+    {
+        "name": "Homes First",
+        "score": 92.5,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Humanitarian Coalition",
+        "score": 92.5,
+        "category": "international_aid"
+    },
+    {
+        "name": "Mennonite Central Committee British Columbia",
+        "score": 92.5,
+        "category": "social_services"
+    },
+    {
+        "name": "Mennonite Central Committee Canada",
+        "score": 92.5,
+        "category": "international_aid"
+    },
+    {
+        "name": "Mennonite Central Committee Manitoba",
+        "score": 92.5,
+        "category": "social_services"
+    },
+    {
+        "name": "Momentum Community Economic Development Society",
+        "score": 92.5,
+        "category": "social_services"
+    },
+    {
+        "name": "Nature Canada",
+        "score": 92.5,
+        "category": "environment"
+    },
+    {
+        "name": "Our Place",
+        "score": 92.5,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Primate's World Relief and Development Fund",
+        "score": 92.5,
+        "category": "international_aid"
+    },
+    {
+        "name": "St. Stephen's Community House",
+        "score": 92.5,
+        "category": "social_services"
+    },
+    {
+        "name": "United Jewish Appeal of Greater Toronto",
+        "score": 92.5,
+        "category": "fundraising_organization"
+    },
+    {
+        "name": "World Renew",
+        "score": 92.5,
+        "category": "international_aid"
+    },
+    {
+        "name": "Calgary Drop-in",
+        "score": 92,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Central Toronto Community Health Centres",
+        "score": 92,
+        "category": "health"
+    },
+    {
+        "name": "CODE",
+        "score": 92,
+        "category": "international_aid"
+    },
+    {
+        "name": "Furniture Bank",
+        "score": 92,
+        "category": "social_services"
+    },
+    {
+        "name": "International Justice Mission Canada",
+        "score": 92,
+        "category": "international_aid"
+    },
+    {
+        "name": "Knowledge Network",
+        "score": 92,
+        "category": "education"
+    },
+    {
+        "name": "Sleeping Children Around the World",
+        "score": 92,
+        "category": "international_aid"
+    },
+    {
+        "name": "United Way of Winnipeg",
+        "score": 92,
+        "category": "fundraising_organization"
+    },
+    {
+        "name": "Daily Bread Food Bank",
+        "score": 91.5,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "Nature Conservancy Canada",
+        "score": 91.5,
+        "category": "environment"
+    },
+    {
+        "name": "Operation Eyesight Universal",
+        "score": 91.5,
+        "category": "international_aid"
+    },
+    {
+        "name": "World Vision Canada",
+        "score": 91.5,
+        "category": "international_aid"
+    },
+    {
+        "name": "Alberta Animal Rescue Crew Society",
+        "score": 90,
+        "category": "other"
+    },
+    {
+        "name": "ALS BC",
+        "score": 90,
+        "category": "health"
+    },
+    {
+        "name": "Boys and Girls Club of Ottawa",
+        "score": 90,
+        "category": "youth"
+    },
+    {
+        "name": "Canadian Constitution Foundation",
+        "score": 90,
+        "category": "other"
+    },
+    {
+        "name": "Canadian Olympic Foundation",
+        "score": 90,
+        "category": "other"
+    },
+    {
+        "name": "Canadian Parks and Wilderness Society",
+        "score": 90,
+        "category": "environment"
+    },
+    {
+        "name": "Canadian Tire Jumpstart",
+        "score": 90,
+        "category": "youth"
+    },
+    {
+        "name": "Child Development Institute",
+        "score": 90,
+        "category": "youth"
+    },
+    {
+        "name": "CityKidz",
+        "score": 90,
+        "category": "youth"
+    },
+    {
+        "name": "Compassion Canada",
+        "score": 90,
+        "category": "international_aid"
+    },
+    {
+        "name": "Evergreen",
+        "score": 90,
+        "category": "environment"
+    },
+    {
+        "name": "Frontier College",
+        "score": 90,
+        "category": "education"
+    },
+    {
+        "name": "Habitat for Humanity Niagara",
+        "score": 90,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "International Development and Relief Foundation",
+        "score": 90,
+        "category": "international_aid"
+    },
+    {
+        "name": "Islamic Relief Canada",
+        "score": 90,
+        "category": "international_aid"
+    },
+    {
+        "name": "Jewish General Hospital Foundation",
+        "score": 90,
+        "category": "Hospital Foundation"
+    },
+    {
+        "name": "Oxfam Quebec",
+        "score": 90,
+        "category": "international_aid"
+    },
+    {
+        "name": "President's Choice Children's Charity",
+        "score": 90,
+        "category": "youth"
+    },
+    {
+        "name": "Salvation Army",
+        "score": 90,
+        "category": "social_services"
+    },
+    {
+        "name": "The Alex",
+        "score": 90,
+        "category": "housing_and_homelessness"
+    },
+    {
+        "name": "United Way Greater Toronto",
+        "score": 90,
+        "category": "fundraising_organization"
+    },
+    {
+        "name": "United Way of Regina",
+        "score": 90,
+        "category": "fundraising_organization"
+    },
+    {
+        "name": "War Child Canada",
+        "score": 90,
+        "category": "international_aid"
+    },
+    {
+        "name": "World University Service of Canada",
+        "score": 90,
+        "category": "international_aid"
+    },
+    {
+        "name": "YWCA Calgary",
+        "score": 90,
+        "category": "social_services"
+    }
+]
