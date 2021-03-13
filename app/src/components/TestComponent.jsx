@@ -7,8 +7,7 @@ export default function TestComponent() {
 
     useEffect(() => {
         (async function() {
-            const {data} = axios.get('/test-endpoint')
-            console.log(data)
+            const {data} = await axios.get('/test-endpoint')            
             setValue(data.data)
         })()        
     }, [])
