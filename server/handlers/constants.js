@@ -9,6 +9,11 @@ constants.HISTORY_EVENT_TYPES = {
     DONATE_TO_CHARITY: 'donate_to_charity',
 };
 
+constants.USER_TYPES = {
+    EMPLOYER: 'employer',
+    EMPLOYEE: 'employee',
+};
+
 constants.CHARITY_CATEGORIES = {
     HOUSING_AND_HOMELESSNESS: 'housing_and_homelessness',
     YOUTH: 'youth',
@@ -18,11 +23,11 @@ constants.CHARITY_CATEGORIES = {
     SOCIAL_SERVICES: 'social_services',
     FUNDRAISING: 'fundraising_organization',
     EDUCATION: 'education',
-    GENDER_EQUALITY: "gender_equality",
+    GENDER_EQUALITY: 'gender_equality',
     HEALTH: 'health',
     LOCAL: 'local',
-    LGBTQPLUS: "lgbtqplus",
-    SYSTEMIC_RACISM: "systemic_racism"
+    LGBTQPLUS: 'lgbtqplus',
+    SYSTEMIC_RACISM: 'systemic_racism',
 };
 
 constants.AVALIABLE_CATEGORIES = [
@@ -32,7 +37,7 @@ constants.AVALIABLE_CATEGORIES = [
     constants.CHARITY_CATEGORIES.SOCIAL_SERVICES,
     constants.CHARITY_CATEGORIES.GENDER_EQUALITY,
     constants.CHARITY_CATEGORIES.LGBTQPLUS,
-    constants.CHARITY_CATEGORIES.SYSTEMIC_RACISM
+    constants.CHARITY_CATEGORIES.SYSTEMIC_RACISM,
 ];
 
 constants.cur_mappings = {

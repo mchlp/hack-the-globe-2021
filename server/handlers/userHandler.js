@@ -16,14 +16,17 @@ class UserHandler {
         };
     }
 
-    addUser(username, company) {
+    addUser(username) {
         if (!this.userDb[username]) {
             this.userDb[username] = {
-                name: null,
-                company,
+                firstName: null,
+                lastName: null,
+                password: null,
+                company: null,
                 interests: [],
                 history: [],
                 affiliations: [],
+                type: null,
             };
             this.addEventToUserHistory(username, constants.HISTORY_EVENT_TYPES.REGISTER);
             return {

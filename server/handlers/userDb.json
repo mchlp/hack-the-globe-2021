@@ -193,5 +193,21 @@
             }
         ],
         "affiliations": []
+    },
+    "michael": {
+        "name": null,
+        "company": null,
+        "interests": [],
+        "history": [
+            {
+                "type": "register",
+                "timestamp": "Sat Mar 13 2021 17:04:16 GMT-0500 (Eastern Standard Time)"
+            }
+        ],
+        "affiliations": [],
+        "type": null,
+        "firstName": "",
+        "lastName": "",
+        "password": "test123"
     }
 }

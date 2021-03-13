@@ -22,10 +22,10 @@ app.get('/test-endpoint', (req, res) => {
 });
 
 app.post('/user/new', (req, res) => {
-    if (req.body && req.body.username && req.body.company) {
-        res.send(userHandler.addUser(req.body.username, req.body.company));
+    if (req.body && req.body.username) {
+        res.send(userHandler.addUser(req.body.username));
     } else {
-        res.status(400).send('Body must contain username and company field.');
+        res.status(400).send('Body must contain username field.');
     }
 });
 
