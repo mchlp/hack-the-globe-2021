@@ -1,492 +1,826 @@
-[
-    {
+{
+    "test": {
+        "name": "Test Charity",
+        "score": 100,
+        "amountDonated": 1100,
+        "categories": [
+            "housing_and_homelessness"
+        ]
+    },
+    "test2": {
+        "name": "Test Charity 2",
+        "score": 100,
+        "amountDonated": 1100,
+        "categories": [
+            "international_aid"
+        ]
+    },
+    "test3": {
+        "name": "Test Charity 3",
+        "score": 100,
+        "amountDonated": 1400,
+        "categories": [
+            "youth"
+        ]
+    },
+    "all_hands_volunteers": {
+        "name": "All Hands Volunteers",
+        "score": 100,
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
+    },
+    "disaster_relief_international": {
+        "name": "Disaster Relief International",
+        "score": 100,
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
+    },
+    "calgary_food_bank": {
         "name": "Calgary Food Bank",
         "score": 100,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "boundless_school": {
         "name": "Boundless School",
         "score": 97.5,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "bruce_trail_conservancy": {
         "name": "Bruce Trail Conservancy",
         "score": 97.5,
-        "category": "environment"
+        "amountDonated": 0,
+        "categories": [
+            "environment"
+        ]
     },
-    {
+    "canadahelps": {
         "name": "CanadaHelps",
         "score": 97.5,
-        "category": "other"
+        "amountDonated": 0,
+        "categories": [
+            "other"
+        ]
     },
-    {
+    "chalice_canada": {
         "name": "Chalice Canada",
         "score": 97.5,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "food_banks_canada": {
         "name": "Food Banks Canada",
         "score": 97.5,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "indspire": {
         "name": "Indspire",
         "score": 97.5,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "the_mississauga_food_bank": {
         "name": "The Mississauga Food Bank",
         "score": 97.5,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "united_way_of_calgary_and_area": {
         "name": "United Way of Calgary and Area",
         "score": 97.5,
-        "category": "fundraising_organization"
+        "amountDonated": 0,
+        "categories": [
+            "fundraising_organization"
+        ]
     },
-    {
+    "united_way_of_the_alberta_capital_region": {
         "name": "United Way of the Alberta Capital Region",
         "score": 97.5,
-        "category": "fundraising_organization"
+        "amountDonated": 0,
+        "categories": [
+            "fundraising_organization"
+        ]
     },
-    {
+    "united_way_ottawa_(now_called_united_way_east_ontario)": {
         "name": "United Way Ottawa (now called United Way East Ontario)",
         "score": 97.5,
-        "category": "fundraising_organization"
+        "amountDonated": 0,
+        "categories": [
+            "fundraising_organization"
+        ]
     },
-    {
+    "victoria_hospice_society": {
         "name": "Victoria Hospice Society",
         "score": 97.5,
-        "category": "health"
+        "amountDonated": 0,
+        "categories": [
+            "health"
+        ]
     },
-    {
+    "wesley_urban_ministries": {
         "name": "Wesley Urban Ministries",
         "score": 97.5,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "youth_without_shelter": {
         "name": "Youth Without Shelter",
         "score": 97.5,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "feed_nova_scotia": {
         "name": "Feed Nova Scotia",
         "score": 97,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "george_hull_centre_for_children_and_families": {
         "name": "George Hull Centre for Children and Families",
         "score": 97,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "calgary_homeless_foundation": {
         "name": "Calgary Homeless Foundation",
         "score": 95,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "canadian_foodgrains_bank": {
         "name": "Canadian Foodgrains Bank",
         "score": 95,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "canadian_red_cross": {
         "name": "Canadian Red Cross",
         "score": 95,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "centraide_of_greater_montreal_(united_way_montreal)": {
         "name": "Centraide of Greater Montreal (United Way Montreal)",
         "score": 95,
-        "category": "fundraising_organization"
+        "amountDonated": 0,
+        "categories": [
+            "fundraising_organization"
+        ]
     },
-    {
+    "children's_cottage_society": {
         "name": "Children's Cottage Society",
         "score": 95,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "covenant_house_vancouver": {
         "name": "Covenant House Vancouver",
         "score": 95,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "discovery_house": {
         "name": "Discovery House",
         "score": 95,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "emergency_relief_and_development_overseas": {
         "name": "Emergency Relief and Development Overseas",
         "score": 95,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "farm_radio_international": {
         "name": "Farm Radio International",
         "score": 95,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "fresh_start_recovery_centre": {
         "name": "Fresh Start Recovery Centre",
         "score": 95,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "hope_air": {
         "name": "Hope Air",
         "score": 95,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "mada_community_center": {
         "name": "MADA Community Center",
         "score": 95,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "opportunity_international_canada": {
         "name": "Opportunity International Canada",
         "score": 95,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "the_redwood": {
         "name": "The Redwood",
         "score": 95,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "toronto_foundation_for_student_success": {
         "name": "Toronto Foundation for Student Success",
         "score": 95,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "mennonite_central_committee_ontario": {
         "name": "Mennonite Central Committee Ontario",
         "score": 95,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "toronto_humane_society": {
         "name": "Toronto Humane Society",
         "score": 95,
-        "category": "other"
+        "amountDonated": 0,
+        "categories": [
+            "other"
+        ]
     },
-    {
+    "trails_youth_initiatives": {
         "name": "Trails Youth Initiatives",
         "score": 95,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "united_way_of_fort_mcmurray_and_wood_buffalo": {
         "name": "United Way of Fort McMurray and Wood Buffalo",
         "score": 95,
-        "category": "fundraising_organization"
+        "amountDonated": 0,
+        "categories": [
+            "fundraising_organization"
+        ]
     },
-    {
+    "united_way_of_greater_moncton_and_southeastern_new_brunswick_region": {
         "name": "United Way of Greater Moncton and Southeastern New Brunswick Region",
         "score": 95,
-        "category": "fundraising_organization"
+        "amountDonated": 0,
+        "categories": [
+            "fundraising_organization"
+        ]
     },
-    {
+    "youth_employment_services": {
         "name": "Youth Employment Services",
         "score": 95,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "bc_spca": {
         "name": "BC SPCA",
         "score": 94.5,
-        "category": "other"
+        "amountDonated": 0,
+        "categories": [
+            "other"
+        ]
     },
-    {
+    "greater_vancouver_food_bank": {
         "name": "Greater Vancouver Food Bank",
         "score": 94.5,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "habitat_for_humanity_manitoba": {
         "name": "Habitat for Humanity Manitoba",
         "score": 94.5,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "lookout_housing_and_health_society": {
         "name": "Lookout Housing and Health Society",
         "score": 94.5,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "second_harvest": {
         "name": "Second Harvest",
         "score": 94.5,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "world_federation_of_hemophilia": {
         "name": "World Federation of Hemophilia",
         "score": 94.5,
-        "category": "health"
+        "amountDonated": 0,
+        "categories": [
+            "health"
+        ]
     },
-    {
+    "habitat_for_humanity_edmonton": {
         "name": "Habitat for Humanity Edmonton",
         "score": 94,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "hospice_of_greater_saint_john": {
         "name": "Hospice of Greater Saint John",
         "score": 94,
-        "category": "health"
+        "amountDonated": 0,
+        "categories": [
+            "health"
+        ]
     },
-    {
+    "360°kids": {
         "name": "360°kids",
         "score": 92.5,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "big_brothers_big_sisters_of_canada": {
         "name": "Big Brothers Big Sisters of Canada",
         "score": 92.5,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "brain_canada": {
         "name": "Brain Canada",
         "score": 92.5,
-        "category": "health"
+        "amountDonated": 0,
+        "categories": [
+            "health"
+        ]
     },
-    {
+    "calgary_women's_emergency_shelter": {
         "name": "Calgary Women's Emergency Shelter",
         "score": 92.5,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "homes_first": {
         "name": "Homes First",
         "score": 92.5,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "humanitarian_coalition": {
         "name": "Humanitarian Coalition",
         "score": 92.5,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "mennonite_central_committee_british_columbia": {
         "name": "Mennonite Central Committee British Columbia",
         "score": 92.5,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "mennonite_central_committee_canada": {
         "name": "Mennonite Central Committee Canada",
         "score": 92.5,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "mennonite_central_committee_manitoba": {
         "name": "Mennonite Central Committee Manitoba",
         "score": 92.5,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "momentum_community_economic_development_society": {
         "name": "Momentum Community Economic Development Society",
         "score": 92.5,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "nature_canada": {
         "name": "Nature Canada",
         "score": 92.5,
-        "category": "environment"
+        "amountDonated": 0,
+        "categories": [
+            "environment"
+        ]
     },
-    {
+    "our_place": {
         "name": "Our Place",
         "score": 92.5,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "primate's_world_relief_and_development_fund": {
         "name": "Primate's World Relief and Development Fund",
         "score": 92.5,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "st._stephen's_community_house": {
         "name": "St. Stephen's Community House",
         "score": 92.5,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "united_jewish_appeal_of_greater_toronto": {
         "name": "United Jewish Appeal of Greater Toronto",
         "score": 92.5,
-        "category": "fundraising_organization"
+        "amountDonated": 0,
+        "categories": [
+            "fundraising_organization"
+        ]
     },
-    {
+    "world_renew": {
         "name": "World Renew",
         "score": 92.5,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "calgary_drop-in": {
         "name": "Calgary Drop-in",
         "score": 92,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "central_toronto_community_health_centres": {
         "name": "Central Toronto Community Health Centres",
         "score": 92,
-        "category": "health"
+        "amountDonated": 0,
+        "categories": [
+            "health"
+        ]
     },
-    {
+    "code": {
         "name": "CODE",
         "score": 92,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "furniture_bank": {
         "name": "Furniture Bank",
         "score": 92,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "international_justice_mission_canada": {
         "name": "International Justice Mission Canada",
         "score": 92,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "knowledge_network": {
         "name": "Knowledge Network",
         "score": 92,
-        "category": "education"
+        "amountDonated": 0,
+        "categories": [
+            "education"
+        ]
     },
-    {
+    "sleeping_children_around_the_world": {
         "name": "Sleeping Children Around the World",
         "score": 92,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "united_way_of_winnipeg": {
         "name": "United Way of Winnipeg",
         "score": 92,
-        "category": "fundraising_organization"
+        "amountDonated": 0,
+        "categories": [
+            "fundraising_organization"
+        ]
     },
-    {
+    "daily_bread_food_bank": {
         "name": "Daily Bread Food Bank",
         "score": 91.5,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "nature_conservancy_canada": {
         "name": "Nature Conservancy Canada",
         "score": 91.5,
-        "category": "environment"
+        "amountDonated": 0,
+        "categories": [
+            "environment"
+        ]
     },
-    {
+    "operation_eyesight_universal": {
         "name": "Operation Eyesight Universal",
         "score": 91.5,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "world_vision_canada": {
         "name": "World Vision Canada",
         "score": 91.5,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "alberta_animal_rescue_crew_society": {
         "name": "Alberta Animal Rescue Crew Society",
         "score": 90,
-        "category": "other"
+        "amountDonated": 0,
+        "categories": [
+            "other"
+        ]
     },
-    {
+    "als_bc": {
         "name": "ALS BC",
         "score": 90,
-        "category": "health"
+        "amountDonated": 0,
+        "categories": [
+            "health"
+        ]
     },
-    {
+    "boys_and_girls_club_of_ottawa": {
         "name": "Boys and Girls Club of Ottawa",
         "score": 90,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "canadian_constitution_foundation": {
         "name": "Canadian Constitution Foundation",
         "score": 90,
-        "category": "other"
+        "amountDonated": 0,
+        "categories": [
+            "other"
+        ]
     },
-    {
+    "canadian_olympic_foundation": {
         "name": "Canadian Olympic Foundation",
         "score": 90,
-        "category": "other"
+        "amountDonated": 0,
+        "categories": [
+            "other"
+        ]
     },
-    {
+    "canadian_parks_and_wilderness_society": {
         "name": "Canadian Parks and Wilderness Society",
         "score": 90,
-        "category": "environment"
+        "amountDonated": 0,
+        "categories": [
+            "environment"
+        ]
     },
-    {
+    "canadian_tire_jumpstart": {
         "name": "Canadian Tire Jumpstart",
         "score": 90,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "child_development_institute": {
         "name": "Child Development Institute",
         "score": 90,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "citykidz": {
         "name": "CityKidz",
         "score": 90,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "compassion_canada": {
         "name": "Compassion Canada",
         "score": 90,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "evergreen": {
         "name": "Evergreen",
         "score": 90,
-        "category": "environment"
+        "amountDonated": 0,
+        "categories": [
+            "environment"
+        ]
     },
-    {
+    "frontier_college": {
         "name": "Frontier College",
         "score": 90,
-        "category": "education"
+        "amountDonated": 0,
+        "categories": [
+            "education"
+        ]
     },
-    {
+    "habitat_for_humanity_niagara": {
         "name": "Habitat for Humanity Niagara",
         "score": 90,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "international_development_and_relief_foundation": {
         "name": "International Development and Relief Foundation",
         "score": 90,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "islamic_relief_canada": {
         "name": "Islamic Relief Canada",
         "score": 90,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "jewish_general_hospital_foundation": {
         "name": "Jewish General Hospital Foundation",
         "score": 90,
-        "category": "Hospital Foundation"
+        "amountDonated": 0,
+        "categories": [
+            "Hospital Foundation"
+        ]
     },
-    {
+    "oxfam_quebec": {
         "name": "Oxfam Quebec",
         "score": 90,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "president's_choice_children's_charity": {
         "name": "President's Choice Children's Charity",
         "score": 90,
-        "category": "youth"
+        "amountDonated": 0,
+        "categories": [
+            "youth"
+        ]
     },
-    {
+    "salvation_army": {
         "name": "Salvation Army",
         "score": 90,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     },
-    {
+    "the_alex": {
         "name": "The Alex",
         "score": 90,
-        "category": "housing_and_homelessness"
+        "amountDonated": 0,
+        "categories": [
+            "housing_and_homelessness"
+        ]
     },
-    {
+    "united_way_greater_toronto": {
         "name": "United Way Greater Toronto",
         "score": 90,
-        "category": "fundraising_organization"
+        "amountDonated": 0,
+        "categories": [
+            "fundraising_organization"
+        ]
     },
-    {
+    "united_way_of_regina": {
         "name": "United Way of Regina",
         "score": 90,
-        "category": "fundraising_organization"
+        "amountDonated": 0,
+        "categories": [
+            "fundraising_organization"
+        ]
     },
-    {
+    "war_child_canada": {
         "name": "War Child Canada",
         "score": 90,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "world_university_service_of_canada": {
         "name": "World University Service of Canada",
         "score": 90,
-        "category": "international_aid"
+        "amountDonated": 0,
+        "categories": [
+            "international_aid"
+        ]
     },
-    {
+    "ywca_calgary": {
         "name": "YWCA Calgary",
         "score": 90,
-        "category": "social_services"
+        "amountDonated": 0,
+        "categories": [
+            "social_services"
+        ]
     }
-]
+}

@@ -1,53 +1,98 @@
 const fs = require('fs');
-
-const CHARITY_DB_FILE_NAME = './handlers/charityDb.json';
-
-const CHARITY_CATEGORIES = {
-    HOUSING_AND_HOMELESSNESS: 'housing_and_homelessness',
-    YOUTH: 'youth',
-    ENVIRONMENT: 'environment',
-    OTHER: 'other',
-    INTERNATIONAL_AID: 'international_aid',
-    SOCIAL_SERVICES: 'social_services',
-    FUNDRAISING: 'fundraising_organization',
-    EDUCATION: 'education',
-    HEALTH: 'health',
-};
-
-const cur_mappings = {
-    'Housing and homelessness': CHARITY_CATEGORIES.HOUSING_AND_HOMELESSNESS,
-    Youth: CHARITY_CATEGORIES.YOUTH,
-    Environment: CHARITY_CATEGORIES.ENVIRONMENT,
-    Other: CHARITY_CATEGORIES.OTHER,
-    'International Aid': CHARITY_CATEGORIES.INTERNATIONAL_AID,
-    'Social Services': CHARITY_CATEGORIES.SOCIAL_SERVICES,
-    'Fundraising Organization': CHARITY_CATEGORIES.FUNDRAISING,
-    Education: CHARITY_CATEGORIES.EDUCATION,
-    Health: CHARITY_CATEGORIES.HEALTH,
-};
-
+const { AVALIABLE_CATEGORIES } = require('./constants');
+const constants = require('./constants');
 class CharityHandler {
     constructor() {
-        this.charityDb = JSON.parse(fs.readFileSync(CHARITY_DB_FILE_NAME));
+        this.charityDb = JSON.parse(fs.readFileSync(constants.CHARITY_DB_FILE_NAME));
+
+        for (const charity of Object.values(this.charityDb)) {
+            // if (!charity.amountDonated) {
+            //     charity.amountDonated = 0
+            // }
+        }
+
         setInterval(() => {
             this.saveToFile();
         }, 5000);
-        // for (const charity of this.charityDb) {
-        //     if (cur_mappings[charity.category]) {
-        //         charity.category = cur_mappings[charity.category]
-        //     } else {
-        //         console.log("NOT FOUND " + charity.category)
-        //     }
-        // }
     }
 
     saveToFile() {
         console.log('Saving charity data file');
-        fs.writeFileSync(CHARITY_DB_FILE_NAME, JSON.stringify(this.charityDb, null, 4));
+        fs.writeFileSync(constants.CHARITY_DB_FILE_NAME, JSON.stringify(this.charityDb, null, 4));
     }
 
-    getRecommendation() {
-        return this.charityDb[Math.floor(Math.random() * this.charityDb.length)];
+    getRecommendation(userData) {
+        const pastCharityCategories = {};
+        userData.history
+            .filter((event) => {
+                return event.type == constants.HISTORY_EVENT_TYPES.DONATE_TO_CHARITY;
+            })
+            .map((event) => {
+                const charity = this.getCharity(event.charityId);
+                if (charity.categories) {
+                    for (const category of charity.categories) {
+                        if (pastCharityCategories[category]) {
+                            pastCharityCategories[category]++;
+                        } else {
+                            pastCharityCategories[category] = 1;
+                        }
+                    }
+                }
+            });
+
+        const charityScores = [];
+        for (const charityId in this.charityDb) {
+            let curCharityScore = 0;
+            const curCharity = this.charityDb[charityId];
+
+            if (curCharity.categories) {
+                for (const category of curCharity.categories) {
+                    // if it's not in our list of recommendeds, don't return it
+                    if (!constants.AVALIABLE_CATEGORIES.includes(category)) {
+                        curCharityScore -= Infinity;
+                    }
+
+                    // higher score if they've donated to this category before
+                    if (pastCharityCategories[category]) {
+                        curCharityScore += Math.log(pastCharityCategories[category]);
+                    }
+                }
+            }
+
+            // add some randomness
+            curCharityScore += Math.random() * 60;
+
+            charityScores.push({ charityId, score: curCharityScore });
+        }
+
+        const sortedCharities = charityScores
+            .sort((charity1, charity2) => {
+                return charity1.score - charity2.score;
+            })
+            .reverse();
+        // console.log(charityScores);
+        // return sortedCharities;
+
+        return this.getCharity(sortedCharities[0].charityId);
+    }
+
+    getInterests() {
+        return constants.AVALIABLE_CATEGORIES;
+    }
+
+    getCharity(charityId) {
+        return {
+            ...this.charityDb[charityId],
+            id: charityId,
+        };
+    }
+
+    addDonationAmount(charityId, amount) {
+        if (this.charityDb[charityId]) {
+            this.charityDb[charityId].amountDonated += amount;
+            return true;
+        }
+        return false;
     }
 }
 
