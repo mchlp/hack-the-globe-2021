@@ -7,8 +7,8 @@ const MainContainer = withStyles({
     background: "#ECF1E0",
     height: "100vh",
     width: "100%",
-    padding: "0",
-    marginTop: "0",
+    maxWidth: "100%",
+    maxHeight: "100%",
   },
 })(Container);
 
