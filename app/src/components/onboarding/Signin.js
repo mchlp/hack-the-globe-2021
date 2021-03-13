@@ -1,20 +1,14 @@
 import React, { useState } from "react";
-import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import TextField from "@material-ui/core/TextField";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import Checkbox from "@material-ui/core/Checkbox";
-import Link from "@material-ui/core/Link";
 import Grid from "@material-ui/core/Grid";
-import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles, ThemeProvider } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import defaultTheme from "../Themes";
-import { FormControl, FormLabel, Radio, RadioGroup } from "@material-ui/core";
-import axios from "axios";
 import { useHistory } from "react-router-dom";
+import { Link } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -33,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
   signUpContainer: {
     padding: "100px 75px 100px 75px",
     width: "616px",
-    height: "708px",
+    height: "508px",
     background: "#FCFCFC",
   },
   header: {
@@ -44,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SignUp() {
+export default function SignIn() {
   const classes = useStyles();
 
   const [type, setType] = useState(null);
@@ -58,22 +52,9 @@ export default function SignUp() {
   const submitForm = async (e) => {
     e.preventDefault();
     const username = document.getElementById("email").value;
-    const userData = (
-      await axios.post("/user/new", {
-        username,
-      })
-    ).data;
-    await axios.post("/user/update", {
-      username,
-      updatedUserData: {
-        firstName: document.getElementById("firstName").value,
-        lastName: document.getElementById("lastName").value,
-        password: document.getElementById("password").value,
-        type,
-      },
-    });
+    // backend sign-in logic
     history.push({
-      pathname: "/companycode",
+      pathname: "/dashboard",
       state: {
         username,
       },
@@ -89,33 +70,10 @@ export default function SignUp() {
           <div className={classes.signUpContainer}>
             {/* Need to add in all of the stylings for fonts and background colours */}
             <Typography className={classes.header} component="h1">
-              Sign up
+              Sign in
             </Typography>
             <form className={classes.form} noValidate onSubmit={submitForm}>
               <Grid container spacing={2}>
-                <Grid item xs={12} sm={6}>
-                  <TextField
-                    autoComplete="fname"
-                    name="firstName"
-                    variant="outlined"
-                    required
-                    fullWidth
-                    id="firstName"
-                    label="First Name"
-                    autoFocus
-                  />
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                  <TextField
-                    variant="outlined"
-                    required
-                    fullWidth
-                    id="lastName"
-                    label="Last Name"
-                    name="lastName"
-                    autoComplete="lname"
-                  />
-                </Grid>
                 <Grid item xs={12}>
                   <TextField
                     variant="outlined"
@@ -139,29 +97,6 @@ export default function SignUp() {
                     autoComplete="current-password"
                   />
                 </Grid>
-                <Grid item xs={12}>
-                  <FormControl component="fieldset">
-                    <FormLabel component="legend">
-                      What's your situation?
-                    </FormLabel>
-                    <RadioGroup
-                      aria-label="role"
-                      name="role"
-                      onChange={handleChange}
-                    >
-                      <FormControlLabel
-                        value="employer"
-                        control={<Radio />}
-                        label="I'm an employer"
-                      />
-                      <FormControlLabel
-                        value="employee"
-                        control={<Radio />}
-                        label="I'm an employee"
-                      />
-                    </RadioGroup>
-                  </FormControl>
-                </Grid>
               </Grid>
               <Button
                 type="submit"
@@ -170,12 +105,12 @@ export default function SignUp() {
                 color="primary"
                 className={classes.submit}
               >
-                Sign Up
+                Sign In
               </Button>
               <Grid container justify="center">
                 <Grid item>
-                  <Link href="/signin" variant="body2">
-                    Already have an account? Log in
+                  <Link href="/signup" variant="body2">
+                    Don't have an account? Sign up
                   </Link>
                 </Grid>
               </Grid>

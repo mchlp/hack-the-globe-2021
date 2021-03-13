@@ -3,6 +3,7 @@ import { Switch, Route, BrowserRouter, Redirect } from "react-router-dom";
 import { Container, withStyles } from "@material-ui/core";
 import Signup from "./components/onboarding/Signup";
 import CompanyCode from "./components/onboarding/CompanyCode";
+import SignIn from "./components/onboarding/Signin";
 
 const MainContainer = withStyles({
   root: {
@@ -21,6 +22,9 @@ function App() {
         <Switch>
           <Route path="/signup">
             <Signup />
+          </Route>
+          <Route path="/signin">
+            <SignIn />
           </Route>
           <Route path="/companycode">
             <CompanyCode />
