@@ -33,9 +33,10 @@ const useStyles = makeStyles((theme) => ({
   },
   header: {
     textAlign: "center",
-    // fontFamily: "'Epilogue', sans-serif",
-    fontSize: "32px",
+    fontFamily: "'Epilogue', sans-serif",
+    fontSize: "48px",
     fontWeight: "800",
+    color: "#338280",
   },
 }));
 
@@ -70,7 +71,7 @@ export default function SignIn() {
         <div className={classes.paper}>
           <div className={classes.signUpContainer}>
             {/* Need to add in all of the stylings for fonts and background colours */}
-            <Typography className={classes.header} component="h1">
+            <Typography className={classes.header} component="h1"style={{fontFamily:'Epilogue'}}>
               Sign in
             </Typography>
             <form className={classes.form} noValidate onSubmit={submitForm}>
