@@ -4,6 +4,7 @@ import { useLocation, useHistory, Redirect, Link } from 'react-router-dom';
 import graphImage from './graph.jpg';
 import axios from 'axios';
 import ButtonAppBar from './Navbar';
+import Navbar from './Navbar';
 
 const categoryMappings = {
     housing_and_homelessness: 'Homelessness',
@@ -37,6 +38,19 @@ const useStyles = makeStyles((theme) => ({
         color: '#338280',
         fontWeight: '800',
     },
+    header3: {
+        fontFamily: "'Epilogue', sans-serif",
+        fontSize: '24px',
+        fontWeight: '800',
+        color: '#338280',
+        margin: '0px 0px 20px',
+    },
+    header4: {
+        fontFamily: "'Petrona', serif",
+        fontSize: '24px',
+        letterSpacing: '-1px',
+        color: '#338280',
+    },
     titlebar: {
         width: '100%',
         backgroundColor: 'white',
@@ -46,17 +60,24 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: 5,
     },
     container: {
+        marginTop: '60px',
         marginLeft: '250px',
         marginRight: '250px',
-        paddingBottom: '100px',
+        paddingBottom: '25px',
     },
     header5: {
-        fontSize: '18px',
+        fontSize: '22px',
+        letterSpacing: '-1px',
+        fontFamily: "'Petrona', serif",
+        color: '#338280',
+        marginTop: '-16px',
     },
     chip: {
         backgroundColor: '#ECF1E0',
         color: '#338280',
-        fontSize: '14px',
+        fontSize: '16px',
+        padding: '4px',
+        marginTop: '-16px',
     },
     cardcontainer: {
         padding: '16px 16px 0px',
@@ -66,6 +87,21 @@ const useStyles = makeStyles((theme) => ({
         webkitLineClamp: '4',
         webkitBoxOrient: 'vertical',
         overflow: 'hidden',
+    },
+    main: {
+        width: "70vw",
+        marginLeft: "auto",
+        marginRight: "auto",
+    },
+    donationText: {
+        letterSpacing: '-0.5px',
+        fontFamily: "'Petrona', serif",
+        fontSize: '20px',
+        color: '#338280',
+        marginTop: '20px',
+    },
+    fundCards: {
+        padding: "16px",
     },
     button: {
         backgroundColor: '#338280',
@@ -136,14 +172,14 @@ const Dashboard = () => {
     } else {
         return (
             <div style={{ paddingBottom: 20 }}>
-                <ButtonAppBar />
+                <Navbar />
                 <div className={classes.container}>
                     <div>
-                        <h1>Welcome {username}, here are your donations</h1>
+                        <h1 className={classes.header}>Welcome {username}, you've donated $215 this year.</h1>
                         <img src={graphImage} className={classes.graphImage} />
                     </div>
                 </div>
-                <div>
+                <div className={classes.main}>
                     <div>
                         <h1 className={classes.header}>Monthly Fund</h1>
                         <h5 className={classes.header5}>
@@ -158,7 +194,7 @@ const Dashboard = () => {
                     >
                         {monthlyFundList.map((recommendation) => {
                             return (
-                                <Card style={{ width: 250, height: 330, marginRight: 10 }} key={recommendation.id}>
+                                <Card elevation={0} style={{ width: 250, height: 330, marginRight: 10,}} key={recommendation.id}>
                                     <div
                                         style={{
                                             display: 'flex',
@@ -171,7 +207,7 @@ const Dashboard = () => {
                                         }}
                                     >
                                         <div className={classes.cardcontainer}>
-                                            <h3>{recommendation.name}</h3>
+                                            <h3 className={classes.header4}>{recommendation.name}</h3>
                                             <div>
                                                 {recommendation.categories.map((category) => {
                                                     return (
@@ -200,11 +236,31 @@ const Dashboard = () => {
                                 justifyContent: 'space-between',
                             }}
                         >
-                            <Card
+                            <Card elevation={0}
                                 style={{
                                     marginBottom: 10,
                                 }}
-                            >
+                            ><div className={classes.fundCards}>
+                                <div 
+                                    style={{
+                                        display: 'flex',
+                                        flexDirection: 'row',
+                                        justifyContent: 'space-between',
+                                    }}
+                                >
+                                    <div className={classes.donationText}>Budget</div>
+                                    <Link className={classes.donationText} onClick={(e) => e.preventDefault()}>Change</Link>
+                                </div>
+                                <div >
+                                    <h3 className={classes.header3}>$20/month</h3>
+                                </div>
+                                </div>
+                            </Card>
+                            <Card elevation={0}
+                                style={{
+                                    marginBottom: 10,
+                                }}
+                            ><div className={classes.fundCards}>
                                 <div
                                     style={{
                                         display: 'flex',
@@ -212,39 +268,21 @@ const Dashboard = () => {
                                         justifyContent: 'space-between',
                                     }}
                                 >
-                                    <div>Budget</div>
-                                    <Link onClick={(e) => e.preventDefault()}>Change</Link>
+                                    <div className={classes.donationText}>Next Donation</div>
+                                    <Link className={classes.donationText} onClick={(e) => e.preventDefault()}>Change</Link>
                                 </div>
                                 <div>
-                                    <h3>$20/month</h3>
+                                    <h3 className={classes.header3}>04/14/2021</h3>
+                                </div>
                                 </div>
                             </Card>
-                            <Card
-                                style={{
-                                    marginBottom: 10,
-                                }}
-                            >
-                                <div
-                                    style={{
-                                        display: 'flex',
-                                        flexDirection: 'row',
-                                        justifyContent: 'space-between',
-                                    }}
-                                >
-                                    <div>Next Donation</div>
-                                    <Link onClick={(e) => e.preventDefault()}>Change</Link>
-                                </div>
-                                <div>
-                                    <h3>04/14/2021</h3>
-                                </div>
-                            </Card>
-                            <Button variant="contained" color="primary" style={{ width: '100%' }}>
+                            <Button className={classes.button} variant="contained" color="primary" style={{ width: '100%' }}>
                                 Make a one-time donation
                             </Button>
                         </div>
                     </div>
                 </div>
-                <div
+                <div className={classes.main}
                     style={{
                         display: 'flex',
                         alignItems: 'center',
@@ -252,7 +290,7 @@ const Dashboard = () => {
                 >
                     <h1 className={classes.header}>Recommendations</h1>
                     <div style={{ marginLeft: 15 }}>
-                        <Button
+                        <Button 
                             className={classes.button}
                             variant="contained"
                             color="primary"
@@ -262,7 +300,7 @@ const Dashboard = () => {
                         </Button>
                     </div>
                 </div>
-                <div
+                <div className={classes.main}
                     style={{
                         display: 'flex',
                         flexDirection: 'row',
@@ -270,7 +308,7 @@ const Dashboard = () => {
                 >
                     {recommendationList.map((recommendation) => {
                         return (
-                            <Card style={{ width: 250, height: 330, marginRight: 10 }} key={recommendation.id}>
+                            <Card style={{ width: 250, height: 380, marginRight: 10 }} key={recommendation.id}>
                                 <div
                                     style={{
                                         display: 'flex',
@@ -283,7 +321,7 @@ const Dashboard = () => {
                                     }}
                                 >
                                     <div className={classes.cardcontainer}>
-                                        <h3>{recommendation.name}</h3>
+                                        <h3 className={classes.header4}>{recommendation.name}</h3>
                                         <div>
                                             {recommendation.categories.map((category) => {
                                                 return (
@@ -296,8 +334,8 @@ const Dashboard = () => {
                                                 );
                                             })}
                                         </div>
-                                        <div style={{ fontSize: 14 }} className={classes.description}>
-                                            {recommendation.description.substr(0, 200) + '...'}
+                                        <div style={{ fontSize: 16 }} className={classes.description}>
+                                            {recommendation.description.substr(0, 150) + '...'}
                                         </div>
                                     </div>
                                     <Button

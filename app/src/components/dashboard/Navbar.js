@@ -8,6 +8,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import AccountCircle from "@material-ui/icons/AccountCircle";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
+import CardGiftcardIcon from '@material-ui/icons/CardGiftcard';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
-    color: "black",
+    color: '#338280',
   },
 }));
 
@@ -42,7 +43,7 @@ export default function MenuAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar
+      <AppBar elevation={0}
         style={{ background: "white", width: "100vw", marginLeft: "-24px" }}
         position="static"
       >
@@ -53,11 +54,12 @@ export default function MenuAppBar() {
             color="black"
             aria-label="menu"
           >
-            <MenuIcon />
-          </IconButton>
+            
+          </IconButton> 
           <Typography variant="h6" className={classes.title}>
-            Name of our platform
+            Chip In
           </Typography>
+          
           {auth && (
             <div>
               <IconButton
