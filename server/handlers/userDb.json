@@ -1,215 +1,212 @@
 {
-    "bob": {
-        "name": null,
-        "company": "company 2",
-        "interests": [],
-        "history": [],
-        "affiliations": []
-    },
-    "duder": {
-        "name": null,
-        "company": "hello",
-        "interests": [],
-        "history": [
-            {
-                "type": "register",
-                "timestamp": "Sat Mar 13 2021 14:29:01 GMT-0500 (Eastern Standard Time)"
-            }
-        ],
-        "affiliations": []
-    },
-    " ": {
-        "name": null,
-        "company": "hello",
-        "interests": [
-            "housing_and_homelessness",
-            "local"
-        ],
-        "history": [
-            {
-                "type": "register",
-                "timestamp": "Sat Mar 13 2021 14:29:37 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:31:59 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:32:00 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:33:53 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:33:54 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:33:55 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:33:56 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:33:57 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:34:18 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:35:04 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:35:09 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:35:11 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:35:13 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:35:13 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:36:29 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:36:33 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:36:34 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:36:35 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:36:35 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:47:43 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test2",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:47:45 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test3",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:47:48 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test4",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:47:51 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test3",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:47:54 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test3",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:47:54 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test3",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:47:55 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test4",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:47:57 GMT-0500 (Eastern Standard Time)"
-            },
-            {
-                "type": "donate_to_charity",
-                "charityId": "test1",
-                "amount": 100,
-                "timestamp": "Sat Mar 13 2021 14:48:02 GMT-0500 (Eastern Standard Time)"
-            }
-        ],
-        "affiliations": []
-    },
-    "michael": {
-        "name": null,
-        "company": null,
-        "interests": [],
-        "history": [
-            {
-                "type": "register",
-                "timestamp": "Sat Mar 13 2021 17:04:16 GMT-0500 (Eastern Standard Time)"
-            }
-        ],
-        "affiliations": [],
-        "type": "employer",
-        "firstName": "",
-        "lastName": "",
-        "password": "test123",
-        "companyCode": "1"
-    }
+  "bob": {
+    "name": null,
+    "company": "company 2",
+    "interests": [],
+    "history": [],
+    "affiliations": []
+  },
+  "duder": {
+    "name": null,
+    "company": "hello",
+    "interests": [],
+    "history": [
+      {
+        "type": "register",
+        "timestamp": "Sat Mar 13 2021 14:29:01 GMT-0500 (Eastern Standard Time)"
+      }
+    ],
+    "affiliations": []
+  },
+  "dudedfr": {
+    "name": null,
+    "company": "hello",
+    "interests": ["housing_and_homelessness", "local"],
+    "history": [
+      {
+        "type": "register",
+        "timestamp": "Sat Mar 13 2021 14:29:37 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:31:59 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:32:00 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:33:53 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:33:54 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:33:55 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:33:56 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:33:57 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:34:18 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:35:04 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:35:09 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:35:11 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:35:13 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:35:13 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:36:29 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:36:33 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:36:34 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:36:35 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:36:35 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:47:43 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test2",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:47:45 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test3",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:47:48 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test4",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:47:51 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test3",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:47:54 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test3",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:47:54 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test3",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:47:55 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test4",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:47:57 GMT-0500 (Eastern Standard Time)"
+      },
+      {
+        "type": "donate_to_charity",
+        "charityId": "test1",
+        "amount": 100,
+        "timestamp": "Sat Mar 13 2021 14:48:02 GMT-0500 (Eastern Standard Time)"
+      }
+    ],
+    "affiliations": []
+  },
+  "michael": {
+    "name": null,
+    "company": null,
+    "interests": [],
+    "history": [
+      {
+        "type": "register",
+        "timestamp": "Sat Mar 13 2021 17:04:16 GMT-0500 (Eastern Standard Time)"
+      }
+    ],
+    "affiliations": [],
+    "type": "employer",
+    "firstName": "",
+    "lastName": "",
+    "password": "test123",
+    "companyCode": "1"
+  }
 }
