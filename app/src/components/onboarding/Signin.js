@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     alignItems: "center",
     paddingTop: "25%", // temporary soln
-    height: "100vh"
+    height: "100vh",
   },
   form: {
     width: "100%", // Fix IE 11 issue.
@@ -33,8 +33,7 @@ const useStyles = makeStyles((theme) => ({
   },
   header: {
     textAlign: "center",
-    fontFamily: "'Epilogue', sans-serif",
-    fontSize: "48px",
+    fontSize: "32px",
     fontWeight: "800",
     color: "#338280",
   },

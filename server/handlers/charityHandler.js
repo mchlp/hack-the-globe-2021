@@ -47,7 +47,7 @@ class CharityHandler {
 
             if (curCharity.categories) {
                 for (const category of curCharity.categories) {
-                    // if it's not in our list of recommendeds, don't return it
+                    // if it's not in our list of avaliable categories (can be limited by employer), don't return it
                     if (!constants.AVALIABLE_CATEGORIES.includes(category)) {
                         curCharityScore -= Infinity;
                     }
@@ -59,11 +59,12 @@ class CharityHandler {
 
                     // higher score if user is interested in this category
                     if (userData.interests.includes(category)) {
-                        curCharityScore += 22;
+                        curCharityScore += 30;
                     }
                 }
             }
 
+            // add our score
             curCharityScore += curCharity.score;
 
             // add some randomness
@@ -77,7 +78,6 @@ class CharityHandler {
                 return charity1.score - charity2.score;
             })
             .reverse();
-        // console.log(charityScores);
 
         if (showList) {
             return sortedCharities;

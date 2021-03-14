@@ -28,13 +28,13 @@
     },
     "the_519": {
         "name": "The 519",
-        "score": 100,
+        "score": 200,
         "amount_donated": 0,
         "categories": [
             "lgbtqplus",
             "local"
         ],
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "description": "The 519 is committed to the health, happiness and full participation of the LGBTQ2S communities. A City of Toronto agency with an innovative model of Service, Space and Leadership, we strive to make a real difference in people’s lives, while working to promote inclusion, understanding and respect."
     },
     "egale_canada_human_rights_trust": {
         "name": "Egale Canada Human Rights Trust",
@@ -96,43 +96,44 @@
     },
     "black_women_in_motion": {
         "name": "Black Women in Motion",
-        "score": 100,
+        "score": 200,
         "amountDonated": 0,
         "categories": [
             "systemic_racism",
             "local",
             "gender_equality"
         ],
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "description": "Black Women in Motion is a Toronto-based, youth-led organization that empowers and supports the advancement of black womxn and survivors of sexual violence. We work within an anti-racist, intersectional feminist, trauma-informed and survivor-centred framework to create culturally-relevant content, educational tools, healing spaces and economic opportunities for black womxn."
     },
     "black_legal_action_centre": {
         "name": "Black Legal Action Centre (BLAC)",
-        "score": 100,
+        "score": 200,
         "amountDonated": 0,
         "categories": [
             "systemic_racism",
             "local"
         ],
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "description": "The Black Legal Action Centre (BLAC) is a new not-for-profit corporation set up under the laws of Ontario in 2017. BLAC delivers legal aid services to low and no income Black Ontarians."
     },
     "the_period_purse": {
         "name": "The Period Purse",
-        "score": 100,
+        "score": 200,
         "amountDonated": 0,
         "categories": [
             "gender_equality",
             "local"
         ],
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "description": "The Period Purse strives to achieve menstrual equity by providing marginalized menstruators with access to free menstrual products, and to reduce the stigma surrounding periods through public education and advocacy."
     },
     "barbra_schlifer_commemorative_clinc": {
         "name": "Barbra Schlifer Commemorative Clinc",
-        "score": 100,
+        "score": 200,
         "amountDonated": 0,
         "categories": [
             "gender_equality",
             "local"
-        ]
+        ],
+        "description": "The Schlifer Clinic offers legal, counselling and interpretation services to marginalized populations of women who have survived violence. Our experienced lawyers, counsellors and interpreters have years of training, come from a range of backgrounds, and have helped women from many diverse communities in many kinds of situations."
     },
     "canadian_civil_liberties_association": {
         "name": "Canadian Civil Liberties Association",
@@ -175,12 +176,12 @@
     },
     "calgary_food_bank": {
         "name": "Calgary Food Bank",
-        "score": 100,
+        "score": 200,
         "amountDonated": 0,
         "categories": [
             "housing_and_homelessness"
         ],
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "description": "The Calgary Food Bank is the first line of emergency food support for families and individuals facing crisis. Once the food emergency is addressed, we refer food bank clients to our proven partner agencies and programs. Our deep collaboration and food support to hundreds of other charitable organizations that address the root causes of food insecurity aligns with our mission to work with our community to fight hunger."
     },
     "boundless_school": {
         "name": "Boundless School",
@@ -222,12 +223,12 @@
     },
     "food_banks_canada": {
         "name": "Food Banks Canada",
-        "score": 97.5,
+        "score": 200,
         "amountDonated": 0,
         "categories": [
             "housing_and_homelessness"
         ],
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "description": "Food Banks Canada provides national leadership to relieve hunger today and prevent hunger tomorrow in collaboration with the food bank network in Canada. Food Banks Canada is a national charitable organization dedicated to helping Canadians living with food insecurity. We support a network of Provincial Associations, affiliate food banks, and food agencies that work at the community level to relieve hunger. Our work is focused on maximizing collective impact, strengthening local capacity, and reducing the need for food banks."
     },
     "indspire": {
         "name": "Indspire",
@@ -403,13 +404,13 @@
     },
     "street_health": {
         "name": "Street Health",
-        "score": 100,
+        "score": 200,
         "amountDonated": 0,
         "categories": [
             "housing_and_homelessness",
             "local"
         ],
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "description": "Street Health is a non-profit community based agency that improves the health of homeless and under-housed people in Toronto. We offer both physical and mental health programs. Our work is focused in the neighbourhood around Dundas and Sherbourne Streets, an area with the largest concentration of homeless shelters and drop-in centres in Canada. We provide our services on the street, in parks, and in homeless shelters and drop-ins."
     },
     "farm_radio_international": {
         "name": "Farm Radio International",
