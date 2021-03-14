@@ -38,6 +38,7 @@ constants.AVALIABLE_CATEGORIES = [
     constants.CHARITY_CATEGORIES.GENDER_EQUALITY,
     constants.CHARITY_CATEGORIES.LGBTQPLUS,
     constants.CHARITY_CATEGORIES.SYSTEMIC_RACISM,
+    constants.CHARITY_CATEGORIES.LOCAL
 ];
 
 constants.cur_mappings = {
