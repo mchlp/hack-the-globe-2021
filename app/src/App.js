@@ -8,7 +8,7 @@ import SignIn from "./components/onboarding/Signin";
 const MainContainer = withStyles({
   root: {
     background: "#ECF1E0",
-    height: "100vh",
+    height: "100%",
     width: "100%",
     maxWidth: "100%",
     maxHeight: "100%",
