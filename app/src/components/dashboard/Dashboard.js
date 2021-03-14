@@ -14,9 +14,11 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(3, 0, 2),
   },
   header: {
-    textAlign: "center",
-    // fontFamily: "'Epilogue', sans-serif",
-    fontSize: "32px",
+    textAlign: "left",
+    fontFamily: "'Epilogue', sans-serif",
+    fontSize: "36px",
+    letterSpacing: "-1px",
+    color: '#338280',
     fontWeight: "800",
   },
   titlebar: {
@@ -32,6 +34,9 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "250px",
     paddingBottom: "100px",
   },
+  header5: {
+    fontSize: "18px",
+  }
 }));
 
 const Dashboard = () => {
@@ -73,8 +78,8 @@ const Dashboard = () => {
           </div>
           <div>
             <div>
-              <h1>Monthly Fund</h1>
-              <h5>
+              <h1 className={classes.header}>Monthly Fund</h1>
+              <h5 className={classes.header5}>
                 Your fund includes the charities you’ve pledged to donate to
                 monthly.
               </h5>
@@ -108,7 +113,7 @@ const Dashboard = () => {
                 alignItems: "center",
               }}
             >
-              <h1>Recommendations</h1>
+              <h1 className={classes.header}>Recommendations</h1>
               <div style={{ marginLeft: 15 }}>
                 <Button
                   variant="contained"
