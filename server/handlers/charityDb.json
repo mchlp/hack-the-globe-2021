@@ -3,1080 +3,825 @@
         "name": "Test Charity",
         "score": 100,
         "amountDonated": 1100,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "test2": {
         "name": "Test Charity 2",
         "score": 100,
         "amountDonated": 1100,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "test3": {
         "name": "Test Charity 3",
         "score": 100,
         "amountDonated": 1400,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "the_519": {
         "name": "The 519",
         "score": 200,
         "amount_donated": 0,
-        "categories": [
-            "lgbtqplus",
-            "local"
-        ],
+        "categories": ["lgbtqplus", "local"],
         "description": "The 519 is committed to the health, happiness and full participation of the LGBTQ2S communities. A City of Toronto agency with an innovative model of Service, Space and Leadership, we strive to make a real difference in people’s lives, while working to promote inclusion, understanding and respect."
     },
     "egale_canada_human_rights_trust": {
         "name": "Egale Canada Human Rights Trust",
         "score": 200,
         "amount_donated": 0,
-        "categories": [
-            "lgbtqplus"
-        ],
+        "categories": ["lgbtqplus"],
         "description": "Egale is Canada’s leading organization for LGBTQI2S people and issues. We improve and save lives through research, education, awareness, and by advocating for human rights and equality in Canada and around the world. Our work helps create societies and systems that reflect the universal truth that all persons are equal and none is other."
     },
     "pflag_canada": {
         "name": "PLAG Canada",
         "score": 200,
         "amount_donated": 0,
-        "categories": [
-            "lgbtqplus"
-        ],
+        "categories": ["lgbtqplus"],
         "description": "PFLAG Canada is a national non-profit organization which brings together family and friends of LGBT people in Canada. It was begun separately and without knowledge of the American PFLAG which performs the same functions in the United States."
     },
     "the_canadian_centre_for_gender_sexual_diversity": {
         "name": "The Canadian Centre for Gender & Sexual Diversity",
         "score": 200,
         "amount_donated": 0,
-        "categories": [
-            "lgbtqplus"
-        ],
+        "categories": ["lgbtqplus"],
         "description": "The Canadian Centre for Gender and Sexual Diversity (CCGSD) intersectionally promotes diversity in gender identity, gender expression, and romantic and/or sexual orientation in all its forms on a national level through services in the areas of education, health, and advocacy. Our resources and programming can be used to uplift gender and sexual minorities, as well as give them tools to wider populations in building allyship."
     },
     "toronto_asian_community_aids_services": {
         "name": "Toronto Asian Community AIDS Services",
         "score": 200,
         "amount_donated": 0,
-        "categories": [
-            "lgbtqplus",
-            "local"
-        ],
+        "categories": ["lgbtqplus", "local"],
         "description": "Asian Community AIDS Services (ACAS) is a charitable, non-profit, community-based organization located in Toronto, Canada. We provide safer sex education and services to the East and Southeast Asian communities and support services to persons living with HIV/AIDS and members of the LGBTQ communities."
     },
     "the_amy_project": {
         "name": "Artists Mentoring Youth (The AMY Project)",
         "score": 200,
         "amount_donated": 0,
-        "categories": [
-            "lgbtqplus",
-            "local",
-            "gender_equality"
-        ],
+        "categories": ["lgbtqplus", "local", "gender_equality"],
         "description": "The Artists Mentoring Youth (AMY) Project is committed to transforming the arts landscape by providing accessible, affirming performing arts training & creation programs for women and non-binary youth from equity-seeking communities. With the mentorship of professional artists, AMY participants learn to tell their stories with honesty, integrity, and artistic rigour."
     },
     "black_youth_helpline": {
         "name": "Black Youth Helpline",
         "score": 100,
         "amountDonated": 0,
-        "categories": [
-            "systemic_racism",
-            "youth"
-        ],
+        "categories": ["systemic_racism", "youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "black_women_in_motion": {
         "name": "Black Women in Motion",
         "score": 200,
         "amountDonated": 0,
-        "categories": [
-            "systemic_racism",
-            "local",
-            "gender_equality"
-        ],
+        "categories": ["systemic_racism", "local", "gender_equality"],
         "description": "Black Women in Motion is a Toronto-based, youth-led organization that empowers and supports the advancement of black womxn and survivors of sexual violence. We work within an anti-racist, intersectional feminist, trauma-informed and survivor-centred framework to create culturally-relevant content, educational tools, healing spaces and economic opportunities for black womxn."
     },
     "black_legal_action_centre": {
         "name": "Black Legal Action Centre (BLAC)",
         "score": 200,
         "amountDonated": 0,
-        "categories": [
-            "systemic_racism",
-            "local"
-        ],
+        "categories": ["systemic_racism", "local"],
         "description": "The Black Legal Action Centre (BLAC) is a new not-for-profit corporation set up under the laws of Ontario in 2017. BLAC delivers legal aid services to low and no income Black Ontarians."
     },
     "the_period_purse": {
         "name": "The Period Purse",
         "score": 200,
         "amountDonated": 0,
-        "categories": [
-            "gender_equality",
-            "local"
-        ],
+        "categories": ["gender_equality", "local"],
         "description": "The Period Purse strives to achieve menstrual equity by providing marginalized menstruators with access to free menstrual products, and to reduce the stigma surrounding periods through public education and advocacy."
     },
     "barbra_schlifer_commemorative_clinc": {
         "name": "Barbra Schlifer Commemorative Clinc",
         "score": 200,
         "amountDonated": 0,
-        "categories": [
-            "gender_equality",
-            "local"
-        ],
+        "categories": ["gender_equality", "local"],
         "description": "The Schlifer Clinic offers legal, counselling and interpretation services to marginalized populations of women who have survived violence. Our experienced lawyers, counsellors and interpreters have years of training, come from a range of backgrounds, and have helped women from many diverse communities in many kinds of situations."
     },
     "canadian_civil_liberties_association": {
         "name": "Canadian Civil Liberties Association",
-        "score": 100,
+        "score": -100,
         "amountDonated": 0,
-        "categories": [
-            "gender_equality",
-            "systemic_racism",
-            "local"
-        ],
+        "categories": ["gender_equality", "systemic_racism", "local"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "metrac": {
         "name": "METRAC Action on Violence",
         "score": 100,
         "amountDonated": 0,
-        "categories": [
-            "gender_equality",
-            "local"
-        ],
+        "categories": ["gender_equality", "local"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "all_hands_volunteers": {
         "name": "All Hands Volunteers",
         "score": 100,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "disaster_relief_international": {
         "name": "Disaster Relief International",
         "score": 100,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "calgary_food_bank": {
         "name": "Calgary Food Bank",
         "score": 200,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "The Calgary Food Bank is the first line of emergency food support for families and individuals facing crisis. Once the food emergency is addressed, we refer food bank clients to our proven partner agencies and programs. Our deep collaboration and food support to hundreds of other charitable organizations that address the root causes of food insecurity aligns with our mission to work with our community to fight hunger."
     },
     "boundless_school": {
         "name": "Boundless School",
-        "score": 97.5,
+        "score": -100,
         "amountDonated": 0,
-        "categories": [
-            "youth",
-            "education",
-            "local"
-        ],
+        "categories": ["youth", "education", "local"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "bruce_trail_conservancy": {
         "name": "Bruce Trail Conservancy",
         "score": 97.5,
         "amountDonated": 0,
-        "categories": [
-            "environment"
-        ],
+        "categories": ["environment"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "canadahelps": {
         "name": "CanadaHelps",
         "score": 97.5,
         "amountDonated": 0,
-        "categories": [
-            "other"
-        ],
+        "categories": ["other"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "chalice_canada": {
         "name": "Chalice Canada",
         "score": 97.5,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "food_banks_canada": {
         "name": "Food Banks Canada",
         "score": 200,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Food Banks Canada provides national leadership to relieve hunger today and prevent hunger tomorrow in collaboration with the food bank network in Canada. Food Banks Canada is a national charitable organization dedicated to helping Canadians living with food insecurity. We support a network of Provincial Associations, affiliate food banks, and food agencies that work at the community level to relieve hunger. Our work is focused on maximizing collective impact, strengthening local capacity, and reducing the need for food banks."
     },
     "indspire": {
         "name": "Indspire",
         "score": 97.5,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "the_mississauga_food_bank": {
         "name": "The Mississauga Food Bank",
         "score": 97.5,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "united_way_of_calgary_and_area": {
         "name": "United Way of Calgary and Area",
         "score": 97.5,
         "amountDonated": 0,
-        "categories": [
-            "fundraising_organization"
-        ],
+        "categories": ["fundraising_organization"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "united_way_of_the_alberta_capital_region": {
         "name": "United Way of the Alberta Capital Region",
         "score": 97.5,
         "amountDonated": 0,
-        "categories": [
-            "fundraising_organization"
-        ],
+        "categories": ["fundraising_organization"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "united_way_ottawa_(now_called_united_way_east_ontario)": {
         "name": "United Way Ottawa (now called United Way East Ontario)",
         "score": 97.5,
         "amountDonated": 0,
-        "categories": [
-            "fundraising_organization"
-        ],
+        "categories": ["fundraising_organization"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "victoria_hospice_society": {
         "name": "Victoria Hospice Society",
         "score": 97.5,
         "amountDonated": 0,
-        "categories": [
-            "health"
-        ],
+        "categories": ["health"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "wesley_urban_ministries": {
         "name": "Wesley Urban Ministries",
         "score": 97.5,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "youth_without_shelter": {
         "name": "Youth Without Shelter",
         "score": 97.5,
         "amountDonated": 0,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "feed_nova_scotia": {
         "name": "Feed Nova Scotia",
         "score": 97,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "george_hull_centre_for_children_and_families": {
         "name": "George Hull Centre for Children and Families",
         "score": 97,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "calgary_homeless_foundation": {
         "name": "Calgary Homeless Foundation",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "canadian_foodgrains_bank": {
         "name": "Canadian Foodgrains Bank",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "canadian_red_cross": {
         "name": "Canadian Red Cross",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "centraide_of_greater_montreal_(united_way_montreal)": {
         "name": "Centraide of Greater Montreal (United Way Montreal)",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "fundraising_organization"
-        ],
+        "categories": ["fundraising_organization"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "children's_cottage_society": {
         "name": "Children's Cottage Society",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "covenant_house_vancouver": {
         "name": "Covenant House Vancouver",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "discovery_house": {
         "name": "Discovery House",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "emergency_relief_and_development_overseas": {
         "name": "Emergency Relief and Development Overseas",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "eva_initiatives": {
         "name": "Eva's Initiatives",
-        "score": 100,
+        "score": -100,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness",
-            "local"
-        ],
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "categories": ["housing_and_homelessness", "local"],
+        "description": "Eva’s is an award-winning organization that provides shelter, transitional housing, and programming to help young people build brighter futures free of homelessness. We give young people the tools to transition out of homelessness permanently and we collaborate and innovate to end youth homelessness."
     },
     "street_health": {
         "name": "Street Health",
         "score": 200,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness",
-            "local"
-        ],
+        "categories": ["housing_and_homelessness", "local"],
         "description": "Street Health is a non-profit community based agency that improves the health of homeless and under-housed people in Toronto. We offer both physical and mental health programs. Our work is focused in the neighbourhood around Dundas and Sherbourne Streets, an area with the largest concentration of homeless shelters and drop-in centres in Canada. We provide our services on the street, in parks, and in homeless shelters and drop-ins."
     },
     "farm_radio_international": {
         "name": "Farm Radio International",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "fresh_start_recovery_centre": {
         "name": "Fresh Start Recovery Centre",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "hope_air": {
         "name": "Hope Air",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "mada_community_center": {
         "name": "MADA Community Center",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "opportunity_international_canada": {
         "name": "Opportunity International Canada",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "the_redwood": {
         "name": "The Redwood",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "toronto_foundation_for_student_success": {
         "name": "Toronto Foundation for Student Success",
-        "score": 95,
+        "score": -100,
         "amountDonated": 0,
-        "categories": [
-            "youth",
-            "education",
-            "local"
-        ],
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "categories": ["youth", "education", "local"],
+        "description": "Our mission is to remove barriers for children so that every child is nourished and able to learn. By providing food, medical care, emergency funds and after school programs for children in need, we help them succeed in school. Founded in 1998, the Toronto Foundation for Student Success (TFSS) is an independent, registered charitable organization dedicated to supporting Toronto District School Board (TDSB) children and helping remove barriers to their education."
     },
     "mennonite_central_committee_ontario": {
         "name": "Mennonite Central Committee Ontario",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "toronto_humane_society": {
         "name": "Toronto Humane Society",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "other"
-        ],
+        "categories": ["other"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "trails_youth_initiatives": {
         "name": "Trails Youth Initiatives",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "united_way_of_fort_mcmurray_and_wood_buffalo": {
         "name": "United Way of Fort McMurray and Wood Buffalo",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "fundraising_organization"
-        ],
+        "categories": ["fundraising_organization"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "united_way_of_greater_moncton_and_southeastern_new_brunswick_region": {
         "name": "United Way of Greater Moncton and Southeastern New Brunswick Region",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "fundraising_organization"
-        ],
+        "categories": ["fundraising_organization"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "youth_employment_services": {
         "name": "Youth Employment Services",
         "score": 95,
         "amountDonated": 0,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "bc_spca": {
         "name": "BC SPCA",
         "score": 94.5,
         "amountDonated": 0,
-        "categories": [
-            "other"
-        ],
+        "categories": ["other"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "greater_vancouver_food_bank": {
         "name": "Greater Vancouver Food Bank",
         "score": 94.5,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "habitat_for_humanity_manitoba": {
         "name": "Habitat for Humanity Manitoba",
         "score": 94.5,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "lookout_housing_and_health_society": {
         "name": "Lookout Housing and Health Society",
         "score": 94.5,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "second_harvest": {
         "name": "Second Harvest",
         "score": 94.5,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ]
+        "categories": ["housing_and_homelessness"]
     },
     "world_federation_of_hemophilia": {
         "name": "World Federation of Hemophilia",
         "score": 94.5,
         "amountDonated": 0,
-        "categories": [
-            "health"
-        ],
+        "categories": ["health"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "habitat_for_humanity_edmonton": {
         "name": "Habitat for Humanity Edmonton",
         "score": 94,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "hospice_of_greater_saint_john": {
         "name": "Hospice of Greater Saint John",
         "score": 94,
         "amountDonated": 0,
-        "categories": [
-            "health"
-        ],
+        "categories": ["health"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "360°kids": {
         "name": "360°kids",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "big_brothers_big_sisters_of_canada": {
         "name": "Big Brothers Big Sisters of Canada",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "brain_canada": {
         "name": "Brain Canada",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "health"
-        ],
+        "categories": ["health"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "calgary_women's_emergency_shelter": {
         "name": "Calgary Women's Emergency Shelter",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "homes_first": {
         "name": "Homes First",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "humanitarian_coalition": {
         "name": "Humanitarian Coalition",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "mennonite_central_committee_british_columbia": {
         "name": "Mennonite Central Committee British Columbia",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "mennonite_central_committee_canada": {
         "name": "Mennonite Central Committee Canada",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "mennonite_central_committee_manitoba": {
         "name": "Mennonite Central Committee Manitoba",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "momentum_community_economic_development_society": {
         "name": "Momentum Community Economic Development Society",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "nature_canada": {
         "name": "Nature Canada",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "environment"
-        ],
+        "categories": ["environment"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "our_place": {
         "name": "Our Place",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "primate's_world_relief_and_development_fund": {
         "name": "Primate's World Relief and Development Fund",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "st._stephen's_community_house": {
         "name": "St. Stephen's Community House",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "united_jewish_appeal_of_greater_toronto": {
         "name": "United Jewish Appeal of Greater Toronto",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "fundraising_organization"
-        ],
+        "categories": ["fundraising_organization"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "world_renew": {
         "name": "World Renew",
         "score": 92.5,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "calgary_drop-in": {
         "name": "Calgary Drop-in",
         "score": 92,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "central_toronto_community_health_centres": {
         "name": "Central Toronto Community Health Centres",
         "score": 92,
         "amountDonated": 0,
-        "categories": [
-            "health"
-        ],
+        "categories": ["health"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "code": {
         "name": "CODE",
         "score": 92,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "furniture_bank": {
         "name": "Furniture Bank",
         "score": 92,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "international_justice_mission_canada": {
         "name": "International Justice Mission Canada",
         "score": 92,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "knowledge_network": {
         "name": "Knowledge Network",
         "score": 92,
         "amountDonated": 0,
-        "categories": [
-            "education"
-        ],
+        "categories": ["education"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "sleeping_children_around_the_world": {
         "name": "Sleeping Children Around the World",
         "score": 92,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "united_way_of_winnipeg": {
         "name": "United Way of Winnipeg",
         "score": 92,
         "amountDonated": 0,
-        "categories": [
-            "fundraising_organization"
-        ],
+        "categories": ["fundraising_organization"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "daily_bread_food_bank": {
         "name": "Daily Bread Food Bank",
         "score": 91.5,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "nature_conservancy_canada": {
         "name": "Nature Conservancy Canada",
         "score": 91.5,
         "amountDonated": 0,
-        "categories": [
-            "environment"
-        ],
+        "categories": ["environment"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "operation_eyesight_universal": {
         "name": "Operation Eyesight Universal",
         "score": 91.5,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "world_vision_canada": {
         "name": "World Vision Canada",
         "score": 91.5,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "alberta_animal_rescue_crew_society": {
         "name": "Alberta Animal Rescue Crew Society",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "other"
-        ],
+        "categories": ["other"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "als_bc": {
         "name": "ALS BC",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "health"
-        ],
+        "categories": ["health"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "boys_and_girls_club_of_ottawa": {
         "name": "Boys and Girls Club of Ottawa",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "canadian_constitution_foundation": {
         "name": "Canadian Constitution Foundation",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "other"
-        ],
+        "categories": ["other"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "canadian_olympic_foundation": {
         "name": "Canadian Olympic Foundation",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "other"
-        ],
+        "categories": ["other"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "canadian_parks_and_wilderness_society": {
         "name": "Canadian Parks and Wilderness Society",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "environment"
-        ],
+        "categories": ["environment"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "canadian_tire_jumpstart": {
         "name": "Canadian Tire Jumpstart",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "child_development_institute": {
         "name": "Child Development Institute",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "citykidz": {
         "name": "CityKidz",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "compassion_canada": {
         "name": "Compassion Canada",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "evergreen": {
         "name": "Evergreen",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "environment"
-        ],
+        "categories": ["environment"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "frontier_college": {
         "name": "Frontier College",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "education"
-        ],
+        "categories": ["education"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "habitat_for_humanity_niagara": {
         "name": "Habitat for Humanity Niagara",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "international_development_and_relief_foundation": {
         "name": "International Development and Relief Foundation",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "islamic_relief_canada": {
         "name": "Islamic Relief Canada",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "jewish_general_hospital_foundation": {
         "name": "Jewish General Hospital Foundation",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "Hospital Foundation"
-        ],
+        "categories": ["Hospital Foundation"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "oxfam_quebec": {
         "name": "Oxfam Quebec",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "president's_choice_children's_charity": {
         "name": "President's Choice Children's Charity",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "youth"
-        ],
+        "categories": ["youth"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "salvation_army": {
         "name": "Salvation Army",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "the_alex": {
         "name": "The Alex",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "housing_and_homelessness"
-        ],
+        "categories": ["housing_and_homelessness"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "united_way_greater_toronto": {
         "name": "United Way Greater Toronto",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "fundraising_organization"
-        ],
+        "categories": ["fundraising_organization"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "united_way_of_regina": {
         "name": "United Way of Regina",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "fundraising_organization"
-        ],
+        "categories": ["fundraising_organization"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "war_child_canada": {
         "name": "War Child Canada",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "world_university_service_of_canada": {
         "name": "World University Service of Canada",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "international_aid"
-        ],
+        "categories": ["international_aid"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     "ywca_calgary": {
         "name": "YWCA Calgary",
         "score": 90,
         "amountDonated": 0,
-        "categories": [
-            "social_services"
-        ],
+        "categories": ["social_services"],
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     }
 }
