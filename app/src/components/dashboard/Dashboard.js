@@ -1,4 +1,4 @@
-import { AppBar, Button, Card, IconButton, makeStyles, MenuItem, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Button, Card, Chip, IconButton, makeStyles, MenuItem, Toolbar, Typography } from '@material-ui/core';
 import React, { useState, useEffect, useCallback } from 'react';
 import { useLocation, useHistory, Redirect } from 'react-router-dom';
 import graphImage from './graph.jpg';
@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme) => ({
     },
     graphImage: {
         width: '100%',
+        borderRadius: 5,
     },
     container: {
         marginLeft: '250px',
@@ -125,18 +126,24 @@ const Dashboard = () => {
                             {recommendationList.map((recommendation) => {
                                 return (
                                     <Card style={{ width: 250, height: 300, marginRight: 10 }} key={recommendation.id}>
-                                        <div style={{
-                                            display: 'flex',
-                                            flexDirection: 'column',
-                                            alignContent: 'space-between',
-                                            alignItems: 'space-between',
-                                            justifyContent: 'space-between',
-                                            justifyItems: 'space-between',
-                                            height: '100%'
-                                        }}>
+                                        <div
+                                            style={{
+                                                display: 'flex',
+                                                flexDirection: 'column',
+                                                alignContent: 'space-between',
+                                                alignItems: 'space-between',
+                                                justifyContent: 'space-between',
+                                                justifyItems: 'space-between',
+                                                height: '100%',
+                                            }}
+                                        >
                                             <div>
                                                 <h3>{recommendation.name}</h3>
-                                                <div>{recommendation.categories}</div>
+                                                <div>
+                                                    {recommendation.categories.map((category) => {
+                                                        return <Chip color="primary" size="small" label={category}/>
+                                                    })}
+                                                </div>
                                                 <div style={{ fontSize: 10 }}>{recommendation.description}</div>
                                             </div>
                                             <Button variant="contained" color="primary" style={{ width: '100%' }}>
