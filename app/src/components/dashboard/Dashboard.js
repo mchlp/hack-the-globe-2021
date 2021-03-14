@@ -93,7 +93,7 @@ const Dashboard = () => {
                         >
                             {recommendationList.map((recommendation) => {
                                 return (
-                                    <Card style={{ width: 250, height: 200, marginRight: 10 }} key={recommendation.id}>
+                                    <Card style={{ width: 250, height: 300, marginRight: 10 }} key={recommendation.id}>
                                         <h3>{recommendation.name}</h3>
                                         <div>{recommendation.categories}</div>
                                         <div style={{ fontSize: 10 }}>{recommendation.description}</div>
@@ -124,10 +124,25 @@ const Dashboard = () => {
                         >
                             {recommendationList.map((recommendation) => {
                                 return (
-                                    <Card style={{ width: 250, height: 200, marginRight: 10 }} key={recommendation.id}>
-                                        <h3>{recommendation.name}</h3>
-                                        <div>{recommendation.categories}</div>
-                                        <div style={{ fontSize: 10 }}>{recommendation.description}</div>
+                                    <Card style={{ width: 250, height: 300, marginRight: 10 }} key={recommendation.id}>
+                                        <div style={{
+                                            display: 'flex',
+                                            flexDirection: 'column',
+                                            alignContent: 'space-between',
+                                            alignItems: 'space-between',
+                                            justifyContent: 'space-between',
+                                            justifyItems: 'space-between',
+                                            height: '100%'
+                                        }}>
+                                            <div>
+                                                <h3>{recommendation.name}</h3>
+                                                <div>{recommendation.categories}</div>
+                                                <div style={{ fontSize: 10 }}>{recommendation.description}</div>
+                                            </div>
+                                            <Button variant="contained" color="primary" style={{ width: '100%' }}>
+                                                Add to fund
+                                            </Button>
+                                        </div>
                                     </Card>
                                 );
                             })}
