@@ -36,7 +36,27 @@ const useStyles = makeStyles((theme) => ({
   },
   header5: {
     fontSize: "18px",
-  }
+  },
+  chip: {
+    backgroundColor: '#ECF1E0',
+    color: '#338280',
+    fontSize: "14px",
+  },
+  cardcontainer:{
+    padding: "16px 16px 0px",
+  },
+  description: {
+    display: "-webkit-box",
+    webkitLineClamp: "4",
+    webkitBoxOrient: "vertical",
+    overflow: "hidden",
+
+  },
+  button: {
+    backgroundColor: '#338280',
+    "&:hover": {
+      backgroundColor: "#19514F",
+  }}
 }));
 
 const Dashboard = () => {
@@ -115,7 +135,7 @@ const Dashboard = () => {
             >
               <h1 className={classes.header}>Recommendations</h1>
               <div style={{ marginLeft: 15 }}>
-                <Button
+                <Button className={classes.button}
                   variant="contained"
                   color="primary"
                   onClick={updateRecommendations}
@@ -147,12 +167,12 @@ const Dashboard = () => {
                         height: "100%",
                       }}
                     >
-                      <div>
+                      <div className={classes.cardcontainer}>
                         <h3>{recommendation.name}</h3>
                         <div>
                           {recommendation.categories.map((category) => {
                             return (
-                              <Chip
+                              <Chip className={classes.chip}
                                 color="primary"
                                 size="small"
                                 label={category}
@@ -160,13 +180,14 @@ const Dashboard = () => {
                             );
                           })}
                         </div>
-                        <div style={{ fontSize: 10 }}>
-                          {recommendation.description}
+                        <div style={{ fontSize: 14 }} className={classes.description}>
+                          {recommendation.description.substr(0, 200) + "..."}
                         </div>
                       </div>
-                      <Button
+                      <Button className={classes.button}
                         variant="contained"
                         color="primary"
+                        disableElevation
                         style={{ width: "100%" }}
                       >
                         Add to fund
