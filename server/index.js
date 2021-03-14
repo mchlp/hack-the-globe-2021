@@ -63,7 +63,12 @@ app.get('/interests/list', (req, res) => {
 
 app.get('/charity/recommendation/:username', (req, res) => {
     const userData = userHandler.getUser(req.params.username)    
-    res.send(charityHandler.getRecommendation(userData));
+    res.send(charityHandler.getRecommendation(userData, false, req.query.num));
+});
+
+app.get('/charity/recommendationlist/:username', (req, res) => {
+    const userData = userHandler.getUser(req.params.username)    
+    res.send(charityHandler.getRecommendation(userData, true));
 });
 
 app.listen(port, () => {

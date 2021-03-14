@@ -205,10 +205,10 @@
             }
         ],
         "affiliations": [],
-        "type": null,
+        "type": "employer",
         "firstName": "",
         "lastName": "",
         "password": "test123",
-        "companyCode": "1231231231233212"
+        "companyCode": "1"
     }
 }

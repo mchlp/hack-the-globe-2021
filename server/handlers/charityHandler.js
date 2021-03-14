@@ -21,7 +21,7 @@ class CharityHandler {
         fs.writeFileSync(constants.CHARITY_DB_FILE_NAME, JSON.stringify(this.charityDb, null, 4));
     }
 
-    getRecommendation(userData) {
+    getRecommendation(userData, showList, numToReturn) {
         const pastCharityCategories = {};
         userData.history
             .filter((event) => {
@@ -59,12 +59,12 @@ class CharityHandler {
 
                     // higher score if user is interested in this category
                     if (userData.interests.includes(category)) {
-                        curCharityScore += 22
-                    }                    
+                        curCharityScore += 22;
+                    }
                 }
             }
 
-            curCharityScore += curCharity.score
+            curCharityScore += curCharity.score;
 
             // add some randomness
             curCharityScore += Math.random() * 50;
@@ -78,9 +78,20 @@ class CharityHandler {
             })
             .reverse();
         // console.log(charityScores);
-        // return sortedCharities;
 
-        return this.getCharity(sortedCharities[0].charityId);
+        if (showList) {
+            return sortedCharities;
+        } else {
+            if (numToReturn) {
+                const returnList = []
+                for (let i = 0; i < numToReturn; ++i) {
+                    returnList.push(this.getCharity(sortedCharities[i].charityId));
+                }
+                return returnList
+            } else {
+                return this.getCharity(sortedCharities[0].charityId);
+            }
+        }
     }
 
     getInterests() {

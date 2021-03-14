@@ -33,7 +33,7 @@ function App() {
             <Dashboard />
           </Route>
           <Route path="/">
-            <Redirect to="/signup" />
+            <Redirect to="/signin" />
           </Route>
         </Switch>
       </BrowserRouter>
