@@ -1,5 +1,5 @@
 # Project Description
-Chip In is a one of a kind corporate giving platform that enables employees to donate to local charities and build their unqiue charity portfolio. We developed the platform around three key pillars:
+Chip In is a one of a kind corporate giving platform that enables employees to donate to local charities and build their unique charity portfolio. We developed the platform around three key pillars:
  
 1. The platform give employees a voice in their company’s donations. It encourages employees to become more involved in their company’s CSR initiatives and shifts power away from upper level management.
 
